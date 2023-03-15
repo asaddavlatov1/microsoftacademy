@@ -27,7 +27,6 @@ class GroupController extends Controller
             'end' => 'required',
         ]);
 
-        // dd($request);
 
 
         $add = Group::create([
